@@ -1,3 +1,4 @@
+/* General */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,11 @@ body{
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}  
+
+/* Header Section */
 header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +26,7 @@ header h1{
     font-size: 48px;
 }
 
-header h1 span{
+#header-span{
     color: #d9dcd6;
 }
 
@@ -42,6 +48,7 @@ header a{
     text-decoration: none;
 }
 
+/* Hero Section */
 .hero {
     height: 800px;
     width: 100%;
@@ -50,10 +57,6 @@ header a{
     background-size: cover;
     background-position: center;
 }
-
-p {
-    font-size: 16px;
-}  
 
 /* Services Section */
 .services{
@@ -123,13 +126,7 @@ p {
     max-width: 150px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-
+/* Footer */
 footer {
     padding: 30px;
     clear: both;
