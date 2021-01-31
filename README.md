@@ -5,7 +5,7 @@
 
 **Snapshot**
 ---
-[Screenshot](./Develop/assets/images/site-screenshot.jpg)
+![plot](./assets/images/site-screenshot.jpg)
 
 **See Site In Action:**
 ---
